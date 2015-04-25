@@ -1,0 +1,87 @@
+<template name="socialServiceOption">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <nav id="hospit-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid text-center">
+            <div class="glyphicon glyphicon-home navbar-btn"></div>
+            <div style="margin-left:10px;" class="glyphicon glyphicon glyphicon-arrow-left pull-left navbar-btn"></div>
+            <div style="margin-right:10px;" class="glyphicon glyphicon glyphicon-arrow-right pull-right navbar-btn"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <ul class="list-group hos-list " style="font-size:25px;">
+            <li class="list-group-item text-center" style="background-color: #ebecec;"><span></span><span style="color:#48c5cc;">Senior Social Service</span></li>
+            <li class="list-group-item" style="width:100%;"><i style="width:15%;" class="fa fa-cutlery"></i><span  style="width:85%;">Meals Services</span></li>
+            <li class="list-group-item" style="width:100%;"><i style="width:15%;" class="fa fa-stethoscope"></i><span style="width:85%;">Disease and Injury<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prevention</span></li>
+            <li class="list-group-item"><i style="width:15%;" class="fa fa-child"></i>Senior Center<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Activities</li>
+            <li class="list-group-item"><i style="width:15%;" class="fa fa-info-circle "></i>Information and<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assistance</li>
+            <li class="list-group-item text-center" style="background-color:#b71c36; padding:5px 0 5px 0; margin:0;"><img style="height:90px; width:90px; margin:0;"  src="911.png"></li>
+        </ul>
+    </div>
+</template>
+<template name="meal">
+    <nav id="hospit-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid text-center">
+            <div class="glyphicon glyphicon-home navbar-btn"></div>
+            <div style="margin-left:10px;" class="glyphicon glyphicon glyphicon-arrow-left pull-left navbar-btn"></div>
+            <div style="margin-right:10px;" class="glyphicon glyphicon glyphicon-arrow-right pull-right navbar-btn"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <ul class="list-group">
+            {{#each meals}}
+
+            {{/each}}
+        </ul>
+    </div>
+</template>
+
+<template name="disease-injury">
+    <nav id="hospit-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid text-center">
+            <div class="glyphicon glyphicon-home navbar-btn"></div>
+            <div style="margin-left:10px;" class="glyphicon glyphicon glyphicon-arrow-left pull-left navbar-btn"></div>
+            <div style="margin-right:10px;" class="glyphicon glyphicon glyphicon-arrow-right pull-right navbar-btn"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <ul class="list-group">
+            {{#each injurys}}
+
+            {{/each}}
+        </ul>
+    </div>
+</template>
+
+<template name="senior-center-activity">
+    <nav id="hospit-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid text-center">
+            <div class="glyphicon glyphicon-home navbar-btn"></div>
+            <div style="margin-left:10px;" class="glyphicon glyphicon glyphicon-arrow-left pull-left navbar-btn"></div>
+            <div style="margin-right:10px;" class="glyphicon glyphicon glyphicon-arrow-right pull-right navbar-btn"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <ul class="list-group">
+            {{#each providers}}
+
+            {{/each}}
+        </ul>
+    </div>
+</template>
+
+<template name="assistant">
+    <nav id="hospit-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid text-center">
+            <div class="glyphicon glyphicon-home navbar-btn"></div>
+            <div style="margin-left:10px;" class="glyphicon glyphicon glyphicon-arrow-left pull-left navbar-btn"></div>
+            <div style="margin-right:10px;" class="glyphicon glyphicon glyphicon-arrow-right pull-right navbar-btn"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <ul class="list-group">
+            {{#each assistant}}
+
+            {{/each}}
+        </ul>
+    </div>
+</template>

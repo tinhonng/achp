@@ -1,0 +1,83 @@
+html, body, {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    margin:0;
+    padding:0;
+}
+#logo{
+    background-color:white;
+    height:40%;
+}
+
+#hospital{
+    background-color: #80be1b;
+    height:30%;
+    text-align: center;
+}
+#clinic{
+    background-color: #31acb5;
+    height:30%;
+    text-align: center;
+}
+
+#senior-social{
+    background-color: #ce6925;
+    height:30%;
+    text-align: center;
+}
+
+#emergency-call{
+    background-color: #f3c117;
+    height:30%;
+    text-align: center;
+}
+
+.img-option{
+    height:200px;
+}
+
+h3{
+    text-transform: uppercase;
+    color:white;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.list-group{
+    padding:0;
+}
+
+#hospit-nav{
+    background-color: #48c5cc;
+    color:white;
+    font-size:40px;
+}
+
+.glyphicon-arrow-left .glyphicon-arrow-right .glyphicon-home{
+
+}
+
+.hos-icon{
+    margin-right: 30px;
+}
+
+.hos-list{
+    font-size:40px;
+}
+
+.list-group-item{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.fa{
+    margin-left:20px;
+    margin-right:30px;
+}
+
+
